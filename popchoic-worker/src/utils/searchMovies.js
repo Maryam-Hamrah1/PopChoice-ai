@@ -1,5 +1,5 @@
 export async function searchMovies(embedding, env) {
-    consol.log("hello")
+    
   const response = await fetch(`
     ${env.SUPABASE_URL}/rest/v1/rpc/match_movies`,
     {
