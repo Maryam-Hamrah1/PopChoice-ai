@@ -1,0 +1,1 @@
+export const WORKER_URL = "https://popchoic-worker.maryam-ai.workers.dev";
